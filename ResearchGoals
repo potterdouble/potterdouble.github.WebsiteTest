@@ -70,5 +70,10 @@ footer {
 
 </style>
 </head>
+<body>
+
+<p>test text</p>
+
+</body>
 
 </html>
