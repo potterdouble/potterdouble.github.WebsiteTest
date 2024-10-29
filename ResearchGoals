@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content:"width-device-width, initial-scale=1">
+<style>
+  * { 
+    box-sizing: border-box;
+  }
+
+ /*Not entirely sure what this does */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+ /*defines the header style*/
+  header {
+    background-color: #010101;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+ /*defines the style of the nav panel */
+  nav {
+    float: left;
+    width: 20%;
+    background: #ccc;
+    padding: 20px;
+  }
+
+ /*defines the navigation ui style */
+  nav ul {
+    list-style-type: none;
+    padding: o;
+  }
+
+ /*defines the style of the article*/
+  article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: #f1f1f1;
+  }
+
+/* I don't really know what this does */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ /*defines the style of the footer */
+footer {
+ background-color: #777;
+ padding: 10px;
+ text-align: center;
+ color: white;
+}
+
+/* defines the responsive layout parameters */ 
+@media (max-width: 600px) {
+ nav, article {
+  width: 100%;
+  height: auto;
+  }
+ }
+
+</style>
+</head>
+
+</html>
